@@ -4,21 +4,29 @@
   --matt-white: #fffed5;
   --vivid-yellow: #fee402;
   --philippine-yellow: #fdca00;
+
+  --max-width: 1100px;
 }
 
 #main-parent {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
 }
 
 header {
   background-color: var(--dreamless-sleep);
   color: var(--matt-white);
   padding: 1.5rem;
+}
+
+header div {
+  max-width: var(--max-width);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
 }
 
 nav ul {
@@ -30,6 +38,7 @@ nav ul {
 
 main {
   flex: 1;
+  padding: 5rem;
 }
 
 footer {
@@ -37,4 +46,44 @@ footer {
   color: var(--matt-white);
 }
 
+section {
+  max-width: var(--max-width);
+  margin: auto;
+}
 
+section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* ABOUT ME */
+.about-me-content {
+ 
+  display: flex;
+  gap: 2rem;
+  /* position: relative; */
+}
+
+.about-me-content > div {
+  flex: 1;
+}
+
+
+.about-me-content img {
+   /* max-width: 100%;
+  max-height: 100%; */
+ 
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  object-position: 0% 55%;
+  border-radius: 4px;
+}
+
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+
+}
