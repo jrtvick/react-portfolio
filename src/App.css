@@ -1,0 +1,38 @@
+:root {
+  --eerie-black: #1c1c1c;
+  --dreamless-sleep: #111111;
+  --matt-white: #fffed5;
+  --vivid-yellow: #fee402;
+  --philippine-yellow: #fdca00;
+}
+
+#main-parent {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--dreamless-sleep);
+  color: var(--matt-white);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  font-size: 1.1rem;
+  display: flex;
+  list-style: none;
+  gap: 1.4rem;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: var(--dreamless-sleep);
+  color: var(--matt-white);
+}
