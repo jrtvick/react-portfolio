@@ -36,6 +36,19 @@ nav ul {
   gap: 1.4rem;
 }
 
+nav a {
+  color: var(--matt-white);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--vivid-yellow); 
+}
+
+nav a.active {
+  color: var(--philippine-yellow)
+}
+
 main {
   flex: 1;
   padding: 5rem;

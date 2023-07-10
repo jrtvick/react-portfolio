@@ -3,6 +3,9 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Header from "./components/Header";
 import Layout from "./Layout";
 import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -10,8 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<AboutMe />} />
-          {/*  <Route path="about" element={<About />} />
-          <Route path="dashboard" element={<Dashboard />} /> */}
+          <Route path="projects" element={<Projects />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<AboutMe />} />
         </Route>
       </Routes>
