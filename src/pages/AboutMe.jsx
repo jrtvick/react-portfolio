@@ -7,7 +7,6 @@ export default function AboutMe() {
       <div className="about-me-content">
         <div>
           <img src={picOfMe} />
-          {/* BFJHWOIEROIHJ */}
         </div>
         <div className="bio-text">
           <h1>About</h1>

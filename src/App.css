@@ -123,9 +123,96 @@ section h1 {
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-
 }
 
+/* PROJECTS */ 
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.project-item {
+  background-color: var(--eerie-black);
+  color: var(--matt-white);
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.project-item img:hover {
+  box-shadow: 0px 0px 100px 0px var(--vivid-yellow);
+  transition: .5s ease-in-out; 
+}
+
+.project-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-item h2:hover {
+  text-decoration: underline;
+  cursor: none;
+}
+
+.project-item p {
+  font-size: 16px;
+}
+
+.project-buttons button {
+  padding: 10px 20px;
+  background-color: var(--eerie-black);
+  color: #fff;
+  cursor: crosshair;
+  border-radius: 10px;
+  justify-content: space-around;
+}
+
+.project-buttons button:hover {
+  background-color: var(--philippine-yellow);
+  color: var(--dreamless-sleep);
+  transform: scale(1.25);
+  transition: .5s ease-in-out; 
+}
+
+/* RESUME */
+
+.resume-body {
+  /* border: solid red 2px; */
+}
+
+.resume-download {
+  padding-bottom: 5rem;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  background-color: var(--matt-white);
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+  padding: 0.5rem;
+}
+
+.skill-card ul {
+  list-style: none;
+}
+
+.skill-card:hover {
+  box-shadow: 0px 0px 100px 0px var(--vivid-yellow);
+  transition: .5s ease-in-out; 
+}
 
 /* CONTACT */
 .contact-form {
@@ -133,6 +220,11 @@ section h1 {
   margin: 0 auto;
   padding: 5rem;
   border: solid 1px var(--dreamless-sleep);
+  background-color: var(--matt-white);
+  color: var(--eerie-black);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .contact-form h1 {
@@ -153,15 +245,28 @@ section h1 {
 .contact-form textarea {
   padding: 10px;
   margin-bottom: 15px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: var(--eerie-black);
+  color: var(--vivid-yellow);
 }
+
+.contact-form textarea {
+  height: 100px;
+}
+
 
 .contact-form button {
   padding: 10px 20px;
   background-color: var(--eerie-black);
   color: #fff;
   cursor: crosshair;
+  border-radius: 10px;
 }
 
 .contact-form button:hover {
-  background-color: var(--vivid-yellow);
+  background-color: var(--philippine-yellow);
+  color: var(--dreamless-sleep);
+  transform: scale(1.25);
+  transition: .5s ease-in-out; 
 }
