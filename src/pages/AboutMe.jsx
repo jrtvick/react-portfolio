@@ -10,14 +10,12 @@ export default function AboutMe() {
           {/* BFJHWOIEROIHJ */}
         </div>
         <div className="bio-text">
-          <h1>About Me</h1>
+          <h1>About</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
-            ipsam at asperiores autem cumque voluptatem amet quidem voluptatum
-            quam non. Tenetur sequi veritatis voluptas officiis placeat aliquam
-            earum! Voluptatem quidem quaerat nisi commodi quos. Distinctio quo
-            eligendi voluptatum quas voluptatem eius, ut accusantium quia esse
-            quidem alias dolorem vitae sequi.
+          My name is Tyler Vick. I am 32 years old and I live in Toronto, ON. I started my coding career with a fullstack bootcamp in 2023, and am continuing to self teach and learn new things all the time!
+<br></br>
+<br></br>
+          Outside of web development, I like to spend my time reading, watching movies, cheering on the Detroit Red Wings, and playing 90s JRPGs.
           </p>
         </div>
       </div>

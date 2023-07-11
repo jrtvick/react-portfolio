@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <div>
-        <h1>Tyler Vick</h1>
+        <h1 className="my-name">Tyler Vick</h1>
         <nav>
           <ul>
             <li>
@@ -13,7 +13,7 @@ function Header() {
                 to="/"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                About Me
+                About
               </NavLink>
             </li>
             <li>
@@ -27,7 +27,7 @@ function Header() {
             <li>
               <NavLink
                 // to="/resume"
-                to="https://www.google.com"
+                to="/resume"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
                 Resume
