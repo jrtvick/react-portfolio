@@ -25,19 +25,3 @@ function App() {
 }
 
 export default App;
-
-// import Home from "./Home"
-// import About from "./About"
-// import Contact from "./Contact"
-// import Layout from "./components/Layout";
-
-// function App() {
-//  return (
-//    <div className="App">
-//      <BrowserRouter>
-//      </BrowserRouter>
-//    </div>
-//  )
-// }
-
-// export default App
