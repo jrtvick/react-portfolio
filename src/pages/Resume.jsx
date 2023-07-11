@@ -1,5 +1,4 @@
 import React from "react";
-// import { SiAdobeacrobatreader } from "react-icons/si";
 
 export default function Resume() {
   return (
@@ -9,7 +8,7 @@ export default function Resume() {
       </h2>
       <h3 className="resume-download">
         click below to download the <br></br>
-        <a href="/assets/tylervickresume.pdf" download>
+        <a href="../public/assets/tylervickresume.pdf" download>
          .pdf version of my resume
         </a>
       </h3>
