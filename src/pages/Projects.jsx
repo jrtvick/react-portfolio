@@ -66,7 +66,7 @@ export default function ProjectGrid() {
           <div key={project.id} className="project-item">
             <img src={project.image} alt={project.title} />
             <h2>{project.title}</h2>
-            <p>{project.description}</p>
+            <p className='proj-desc'>{project.description}</p>
             <div className="project-buttons">
               <a href={project.liveLink} target="_blank" rel="noopener noreferrer">
                 <button>Live Site</button>

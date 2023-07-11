@@ -168,13 +168,24 @@ section h1 {
   font-size: 16px;
 }
 
+.proj-desc {
+  padding-bottom: 20px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .project-buttons button {
   padding: 10px 20px;
   background-color: var(--eerie-black);
   color: #fff;
   cursor: crosshair;
   border-radius: 10px;
-  justify-content: space-around;
+  margin: 15px;
 }
 
 .project-buttons button:hover {
