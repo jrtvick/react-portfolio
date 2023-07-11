@@ -8,7 +8,7 @@ export default function Resume() {
       </h2>
       <h3 className="resume-download">
         click below to download the <br></br>
-        <a href="./tylervickresume.pdf" target="_blank" rel="noopener noreferrer" download>
+        <a href="./assets/tylervickresume.pdf" target="_blank" rel="noopener noreferrer" download>
          .pdf version of my resume
         </a>
       </h3>
