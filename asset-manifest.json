@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d5eb41e.css",
-    "main.js": "/static/js/main.afe4a336.js",
-    "static/media/anime.jpg": "/static/media/anime.94a9366218e92879ca21.jpg",
-    "static/media/picOfMe.jpeg": "/static/media/picOfMe.2dd2240467f22ff0453a.jpeg",
-    "static/media/weather.jpg": "/static/media/weather.ab9ab22dbbeb9d29acf6.jpg",
-    "static/media/cashcow.jpg": "/static/media/cashcow.cd6ae0c61dbda10a6ce3.jpg",
-    "static/media/techblog-screenshot.jpg": "/static/media/techblog-screenshot.560a267bf7e68612a82b.jpg",
-    "static/media/scheduler.jpg": "/static/media/scheduler.5a39575c9fc74d6a8aba.jpg",
-    "static/media/noteTaker.jpg": "/static/media/noteTaker.a6293043fbca09826bda.jpg",
-    "index.html": "/index.html",
-    "main.4d5eb41e.css.map": "/static/css/main.4d5eb41e.css.map",
-    "main.afe4a336.js.map": "/static/js/main.afe4a336.js.map"
+    "main.css": "/react-portfolio/static/css/main.4d5eb41e.css",
+    "main.js": "/react-portfolio/static/js/main.ae83d263.js",
+    "static/media/anime.jpg": "/react-portfolio/static/media/anime.94a9366218e92879ca21.jpg",
+    "static/media/picOfMe.jpeg": "/react-portfolio/static/media/picOfMe.2dd2240467f22ff0453a.jpeg",
+    "static/media/weather.jpg": "/react-portfolio/static/media/weather.ab9ab22dbbeb9d29acf6.jpg",
+    "static/media/cashcow.jpg": "/react-portfolio/static/media/cashcow.cd6ae0c61dbda10a6ce3.jpg",
+    "static/media/techblog-screenshot.jpg": "/react-portfolio/static/media/techblog-screenshot.560a267bf7e68612a82b.jpg",
+    "static/media/scheduler.jpg": "/react-portfolio/static/media/scheduler.5a39575c9fc74d6a8aba.jpg",
+    "static/media/noteTaker.jpg": "/react-portfolio/static/media/noteTaker.a6293043fbca09826bda.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.4d5eb41e.css.map": "/react-portfolio/static/css/main.4d5eb41e.css.map",
+    "main.ae83d263.js.map": "/react-portfolio/static/js/main.ae83d263.js.map"
   },
   "entrypoints": [
     "static/css/main.4d5eb41e.css",
-    "static/js/main.afe4a336.js"
+    "static/js/main.ae83d263.js"
   ]
 }
