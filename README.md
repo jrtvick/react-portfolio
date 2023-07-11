@@ -14,23 +14,20 @@ The objective of this repository is to construct a personalized portfolio that i
 
 - [Description](#description)
 - [Table of Contents](#table-of-contents)
-- [Demonstration](#demonstration)
+- [Demo](#demo)
 - [Deployed Webpage](#deployed-webpage)
 - [Technology](#technology)
-- [Installation](#installation)
-- [Credits](#credits)
-- [License](#license)
 
 <br>
 
-## Demonstration
+## Demo
 
-![User going through the interactive portfolio website and starting over.](./public/images/portfolio.gif)
+![screenshot of my homepage](./src/images/jrtvick.github.io_react-portfolio_.png)
 
 
 ## Deployed Webpage
 
-Click on the computer [here](https://jrtvick.github.io/portfolio/) to visit my portfolio!
+Click [here](https://jrtvick.github.io/react-portfolio/) to visit my portfolio!
 
 <br>
 
