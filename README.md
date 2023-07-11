@@ -50,13 +50,3 @@ The application utilizes a range of technogies to delivere its functionality. Th
 - Deployment:
 
   - GitHub
-
-<br>
-
-## Credits
-
-The application uses an external resource called Bootstrap to enhance the style of the portfolio and streamline its deployment. It uses dependencies Node.js and GitHub Pages to achieve this.
-
-<br>
-
-## License
