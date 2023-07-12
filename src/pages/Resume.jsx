@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../images/tylervickresume.pdf"
 
 export default function Resume() {
   return (
@@ -7,10 +8,8 @@ export default function Resume() {
         Online Resume
       </h2>
       <h3 className="resume-download">
-        click below to download the <br></br>
-        <a href="./assets/tylervickresume.pdf" download>
-         .pdf version of my resume
-        </a>
+        <a href={resume} target="_blank" rel="noreferrer">
+        .pdf version of my resume </a>
       </h3>
       
       <div className="skills">
