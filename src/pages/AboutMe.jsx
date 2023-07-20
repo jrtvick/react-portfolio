@@ -1,14 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 import picOfMe from "../images/picOfMe.jpeg";
+import "../components/aboutme/aboutme.css";
 
 export default function AboutMe() {
   return (
     <section>
       <div className="about-me-content">
-        <div>
+        <div className="about-card">
           <img src={picOfMe} />
         </div>
-        <div className="bio-text">
+        <div className="bio-text about-card">
           <h1>About</h1>
           <p>
           My name is Tyler Vick. I am 32 years old and I live in Toronto, ON. I started my coding career with a fullstack bootcamp in 2023, and am continuing to self teach and learn new things all the time!

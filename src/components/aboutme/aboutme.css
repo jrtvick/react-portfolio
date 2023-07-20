@@ -1,0 +1,35 @@
+/* ABOUT ME */
+.about-me-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-me-content > div {
+  flex: 1;
+}
+
+.about-me-content img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  object-position: 0% 55%;
+  border-radius: 10px;
+  border: 2px solid var(--eerie-black);
+}
+
+/* .about-card{
+    min-height: 30rem;
+    min-width: 30rem;
+} */
+
+.bio-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--matt-white);
+  padding: 40px;
+  border: 2px solid var(--eerie-black);
+  border-radius: 10px;
+  font-family: "Space Mono", monospace;
+}

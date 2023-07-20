@@ -1,5 +1,6 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import "./header.css";
 
 function Header() {
   return (
@@ -26,7 +27,6 @@ function Header() {
             </li>
             <li>
               <NavLink
-                // to="/resume"
                 to="/resume"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >

@@ -5,6 +5,7 @@ import scheduler from "../images/scheduler.jpg";
 import weather from "../images/weather.jpg";
 import anime from "../images/anime.jpg";
 import noteTaker from "../images/noteTaker.jpg";
+import "../components/projects/projects.css";
 
 export default function ProjectGrid() {
   const projects = [

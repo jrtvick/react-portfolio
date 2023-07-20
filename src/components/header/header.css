@@ -1,0 +1,65 @@
+header {
+  background-color: var(--dreamless-sleep);
+  color: var(--matt-white);
+  padding: 1.5rem;
+}
+
+header div {
+  max-width: var(--max-width);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+@keyframes dropDownFromTop {
+  0% {
+    transform: translateY(-175%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.my-name {
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-name: dropDownFromTop;
+  font-family: 'Mynerve', cursive;
+  font-size: 2.5rem;
+  color: var(--vivid-yellow);
+}
+
+.my-name:hover {
+  text-decoration: underline;
+  cursor: none;
+}
+
+/* nav {
+  background-color: grey;
+  border-radius: 20px;
+} */
+
+nav ul {
+  font-size: 1.1rem;
+  display: flex;
+  list-style: none;
+  gap: 1.4rem;
+  font-family: 'Rowdies', cursive;
+}
+
+nav a {
+  color: var(--matt-white);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--vivid-yellow);
+  cursor: crosshair;
+}
+
+nav a.active {
+  color: var(--philippine-yellow);
+}

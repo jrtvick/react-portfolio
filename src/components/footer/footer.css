@@ -1,0 +1,32 @@
+footer {
+  background-color: var(--dreamless-sleep);
+  color: var(--dreamless-sleep);
+  max-width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-button {
+  padding: 8px;
+  transition: 0.5s ease-in-out;
+  margin: 10px;
+  background-color: var(--dreamless-sleep);
+  color: white;
+  border-radius: 10px;
+}
+
+.footer-button:hover {
+  background-color: var(--vivid-yellow);
+  color: var(--dreamless-sleep);
+  transform: scale(1.15);
+  cursor: crosshair;
+}
+
+.btn-container {
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+}

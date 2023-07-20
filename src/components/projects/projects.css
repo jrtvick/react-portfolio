@@ -1,0 +1,72 @@
+/* PROJECTS */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+}
+
+.project-item {
+  background-color: var(--eerie-black);
+  color: var(--matt-white);
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: solid 2px var(--vivid-yellow);
+  font-family: "Space Mono", monospace;
+}
+
+.project-item img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.project-item img:hover {
+  box-shadow: 0px 0px 100px 0px var(--vivid-yellow);
+  transition: 0.5s ease-in-out;
+}
+
+.project-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-item h2:hover {
+  text-decoration: underline;
+  cursor: none;
+}
+
+.project-item p {
+  font-size: 16px;
+}
+
+.proj-desc {
+  padding-bottom: 20px;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-buttons button {
+  padding: 10px 20px;
+  background-color: var(--eerie-black);
+  color: var(--vivid-yellow);
+  cursor: crosshair;
+  border-radius: 10px;
+  margin: 15px;
+  font-family: "Space Mono", monospace;
+  transition: 0.5s;
+}
+
+.project-buttons button:hover {
+  background-color: var(--philippine-yellow);
+  color: var(--dreamless-sleep);
+  transform: scale(1.25);
+  transition: 0.5s ease-in-out;
+}

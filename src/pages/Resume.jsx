@@ -1,20 +1,21 @@
 import React from "react";
 import resume from "../images/tylervickresume.pdf"
+import "../components/resume/resume.css";
 
 export default function Resume() {
   return (
     <div className="resume-body">
-      <h2>
+      <h1 className="resume-header">
         Online Resume
-      </h2>
-      <h3 className="resume-download">
+      </h1>
+      <h2 className="resume-download">
         <a href={resume} target="_blank" rel="noreferrer">
         .pdf version of my resume </a>
-      </h3>
+      </h2>
       
       <div className="skills">
         <div className="skill-card">
-          <h3>Front End Know-How</h3>
+          <h2>Front End Know-How</h2>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -26,7 +27,7 @@ export default function Resume() {
           </ul>
         </div>
         <div className="skill-card">
-          <h3>CSS Libraries</h3>
+          <h2>CSS Libraries</h2>
           <ul>
             <li>Bootstrap</li>
             <li>Bulma</li>
@@ -34,7 +35,7 @@ export default function Resume() {
           </ul>
         </div>
         <div className="skill-card">
-          <h3>Back End Know-How</h3>
+          <h2>Back End Know-How</h2>
           <ul>
             <li>APIs</li>
             <li>Node.Js</li>
@@ -43,7 +44,7 @@ export default function Resume() {
           </ul>
         </div>
         <div className="skill-card">
-          <h3>Databases</h3>
+          <h2>Databases</h2>
           <ul>
             <li>MySQL + Sequelize</li>
             <li>MongoDB + Mongoose</li>
