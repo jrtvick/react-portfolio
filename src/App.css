@@ -18,6 +18,8 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url("../src/images/Ver3.png");
+  background-attachment: fixed;
 }
 
 main {

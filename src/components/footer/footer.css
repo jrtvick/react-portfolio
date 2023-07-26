@@ -10,7 +10,7 @@ footer {
 
 .footer-button {
   padding: 8px;
-  transition: 0.5s ease-in-out;
+  transition: 0.7s ease-in-out;
   margin: 10px;
   background-color: var(--dreamless-sleep);
   color: white;
@@ -22,11 +22,15 @@ footer {
   color: var(--dreamless-sleep);
   transform: scale(1.15);
   cursor: crosshair;
+  border: 2.5px solid black;
 }
 
 .btn-container {
   width: fit-content;
-  height: fit-content;
-  background-color: rgba(255, 255, 255, 0.9);
+  height: 52px;
+  background-color: var(--matt-white);
   border-radius: 20px;
+  border: 3px solid var(--vivid-yellow);
+  align-items: center;
+  display: flex;
 }

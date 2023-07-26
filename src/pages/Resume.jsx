@@ -5,9 +5,11 @@ import "../components/resume/resume.css";
 export default function Resume() {
   return (
     <div className="resume-body">
+      <div className="title-bg">
       <h1 className="resume-header">
         Online Resume
       </h1>
+      </div>
       <h2 className="resume-download">
         <a href={resume} target="_blank" rel="noreferrer">
         .pdf version of my resume </a>

@@ -61,7 +61,9 @@ export default function ProjectGrid() {
 
   return (
     <section>
-      <h1>My Projects</h1>
+      <div className='title-bg'>
+      <h1 className='proj-title'>My Projects</h1>
+      </div>
       <div className="project-grid">
         {projects.map((project) => (
           <div key={project.id} className="project-item">
